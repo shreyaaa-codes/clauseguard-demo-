@@ -87,6 +87,282 @@
       "text": "Please restart your computer to apply the updates.",
       "label": 0,
       "source": "Manually authored evaluation example"
+    },
+    {
+      "id": "eval_015",
+      "text": "Spotify may share approximate location information with selected marketing partners.",
+      "label": 1,
+      "source": "Derived from data/raw/spotify.txt"
+    },
+    {
+      "id": "eval_016",
+      "text": "The service records your network address to detect suspicious logins.",
+      "label": 1,
+      "source": "Derived from data/raw/spotify.txt"
+    },
+    {
+      "id": "eval_017",
+      "text": "Location info tracked",
+      "label": 1,
+      "source": "Derived from data/extracted/google_candidate.json"
+    },
+    {
+      "id": "eval_018",
+      "text": "Email shared",
+      "label": 1,
+      "source": "Derived from data/extracted/google_candidate.json"
+    },
+    {
+      "id": "eval_019",
+      "text": "Our analytics system collects the pages you visit and the time of each visit.",
+      "label": 1,
+      "source": "Synthetic privacy clause"
+    },
+    {
+      "id": "eval_020",
+      "text": "We sell aggregated listening trends that cannot reasonably identify an individual.",
+      "label": 1,
+      "source": "Synthetic privacy clause"
+    },
+    {
+      "id": "eval_021",
+      "text": "We do NOT share your data with advertisers.",
+      "label": 0,
+      "source": "Synthetic negation edge case"
+    },
+    {
+      "id": "eval_022",
+      "text": "Your precise location is not collected when location services are disabled.",
+      "label": 0,
+      "source": "Synthetic negation edge case"
+    },
+    {
+      "id": "eval_023",
+      "text": "We never disclose account passwords to any third party.",
+      "label": 0,
+      "source": "Synthetic negation edge case"
+    },
+    {
+      "id": "eval_024",
+      "text": "The word privacy appears in the title of this document.",
+      "label": 0,
+      "source": "Synthetic non-privacy edge case"
+    },
+    {
+      "id": "eval_025",
+      "text": "This privacy notice was last updated in January.",
+      "label": 0,
+      "source": "Synthetic non-privacy boilerplate"
+    },
+    {
+      "id": "eval_026",
+      "text": "Our customer service team is available Monday through Friday.",
+      "label": 0,
+      "source": "Synthetic non-privacy boilerplate"
+    },
+    {
+      "id": "eval_027",
+      "text": "We may use your device information to personalize recommendations.",
+      "label": 1,
+      "source": "Synthetic privacy clause"
+    },
+    {
+      "id": "eval_028",
+      "text": "Cookies remain on your browser for thirty days to remember your preferences.",
+      "label": 1,
+      "source": "Synthetic privacy clause"
+    },
+    {
+      "id": "eval_029",
+      "text": "We process your billing address to complete purchases.",
+      "label": 1,
+      "source": "Synthetic privacy clause"
+    },
+    {
+      "id": "eval_030",
+      "text": "A randomized identifier is sent to our measurement provider.",
+      "label": 1,
+      "source": "Synthetic privacy clause"
+    },
+    {
+      "id": "eval_031",
+      "text": "You can skip this introductory tutorial at any time.",
+      "label": 0,
+      "source": "Synthetic non-privacy boilerplate"
+    },
+    {
+      "id": "eval_032",
+      "text": "The playlist will begin after the download finishes.",
+      "label": 0,
+      "source": "Synthetic non-privacy boilerplate"
+    },
+    {
+      "id": "eval_033",
+      "text": "We may keep diagnostic logs that include your device identifier.",
+      "label": 1,
+      "source": "Synthetic privacy clause"
+    },
+    {
+      "id": "eval_034",
+      "text": "Our partners may combine purchase data with information from their own services.",
+      "label": 1,
+      "source": "Synthetic privacy clause"
+    },
+    {
+      "id": "eval_035",
+      "text": "We do not use your contacts to build a social graph.",
+      "label": 0,
+      "source": "Synthetic negation edge case"
+    },
+    {
+      "id": "eval_036",
+      "text": "No personal information is required to listen to the public radio stream.",
+      "label": 0,
+      "source": "Synthetic negation edge case"
+    },
+    {
+      "id": "eval_037",
+      "text": "The export button creates a file in CSV format.",
+      "label": 0,
+      "source": "Synthetic non-privacy boilerplate"
+    },
+    {
+      "id": "eval_038",
+      "text": "We use session identifiers to maintain your signed-in session.",
+      "label": 1,
+      "source": "Synthetic privacy clause"
+    },
+    {
+      "id": "eval_039",
+      "text": "Depending on your settings, this feature might involve location data.",
+      "label": 1,
+      "source": "Synthetic ambiguous clause"
+    },
+    {
+      "id": "eval_040",
+      "text": "We may retain information as long as necessary, subject to applicable law.",
+      "label": 1,
+      "source": "Synthetic ambiguous clause"
+    },
+    {
+      "id": "eval_041",
+      "text": "Some information may be processed by vendors who help operate the service.",
+      "label": 1,
+      "source": "Synthetic ambiguous clause"
+    },
+    {
+      "id": "eval_042",
+      "text": "We use reasonable safeguards to protect information submitted through the form.",
+      "label": 1,
+      "source": "Synthetic ambiguous clause"
+    },
+    {
+      "id": "eval_043",
+      "text": "The application displays a warning before deleting a playlist.",
+      "label": 0,
+      "source": "Synthetic non-privacy boilerplate"
+    },
+    {
+      "id": "eval_044",
+      "text": "Your profile photo is visible to people you choose to follow.",
+      "label": 1,
+      "source": "Synthetic privacy clause"
+    },
+    {
+      "id": "eval_045",
+      "text": "We may infer general interests from the artists you play.",
+      "label": 1,
+      "source": "Synthetic privacy clause"
+    },
+    {
+      "id": "eval_046",
+      "text": "We do NOT retain the full content of your voice commands.",
+      "label": 0,
+      "source": "Synthetic negation edge case"
+    },
+    {
+      "id": "eval_047",
+      "text": "The terms of service become effective when you click Accept.",
+      "label": 0,
+      "source": "Synthetic non-privacy boilerplate"
+    },
+    {
+      "id": "eval_048",
+      "text": "We share crash reports with the developer that maintains this application.",
+      "label": 1,
+      "source": "Synthetic privacy clause"
+    },
+    {
+      "id": "eval_049",
+      "text": "A cookie may be placed on your browser for advertising measurement.",
+      "label": 1,
+      "source": "Synthetic privacy clause"
+    },
+    {
+      "id": "eval_050",
+      "text": "The service is offered in English, French, and Spanish.",
+      "label": 0,
+      "source": "Synthetic non-privacy boilerplate"
+    },
+    {
+      "id": "eval_051",
+      "text": "We cannot guarantee that every third-party link will remain available.",
+      "label": 0,
+      "source": "Synthetic non-privacy boilerplate"
+    },
+    {
+      "id": "eval_052",
+      "text": "We may disclose information when required by a valid legal request.",
+      "label": 1,
+      "source": "Synthetic privacy clause"
+    },
+    {
+      "id": "eval_053",
+      "text": "Your approximate region is used to show locally relevant content.",
+      "label": 1,
+      "source": "Synthetic privacy clause"
+    },
+    {
+      "id": "eval_054",
+      "text": "We do not combine your listening history with your name for public display.",
+      "label": 0,
+      "source": "Synthetic negation edge case"
+    },
+    {
+      "id": "eval_055",
+      "text": "The next episode starts automatically when the current episode ends.",
+      "label": 0,
+      "source": "Synthetic non-privacy boilerplate"
+    },
+    {
+      "id": "eval_056",
+      "text": "We may receive demographic information from an identity provider.",
+      "label": 1,
+      "source": "Synthetic privacy clause"
+    },
+    {
+      "id": "eval_057",
+      "text": "It is unclear whether the optional survey responses are linked to your account.",
+      "label": 1,
+      "source": "Synthetic ambiguous clause"
+    },
+    {
+      "id": "eval_058",
+      "text": "This section explains how to contact us about accessibility.",
+      "label": 0,
+      "source": "Synthetic non-privacy boilerplate"
+    },
+    {
+      "id": "eval_059",
+      "text": "We may use aggregated reports to improve the reliability of our service.",
+      "label": 1,
+      "source": "Synthetic ambiguous clause"
+    },
+    {
+      "id": "eval_060",
+      "text": "Please select Save to keep your notification preferences.",
+      "label": 0,
+      "source": "Synthetic non-privacy boilerplate"
     }
   ]
 }
