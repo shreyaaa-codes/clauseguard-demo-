@@ -1,0 +1,44 @@
+{
+  "version": "1.0",
+  "dataset_type": "HUMAN_ASSIGNED_PORTFOLIO_RANKINGS",
+  "task": "portfolio_weight_tuning",
+  "rank_definition": "1 is least risky and N is most risky.",
+  "portfolios": [
+    {
+      "id": "portfolio_001",
+      "services": ["Spotify", "Google"],
+      "rank": 1,
+      "rationale": "This baseline portfolio contains the two extracted services and represents the lowest combined exposure in the comparison set."
+    },
+    {
+      "id": "portfolio_002",
+      "services": ["Spotify", "Spotify", "Google"],
+      "rank": 2,
+      "rationale": "The additional Spotify service instance adds another streaming profile with location and network-address collection."
+    },
+    {
+      "id": "portfolio_003",
+      "services": ["Spotify", "Google", "Google"],
+      "rank": 3,
+      "rationale": "Two search-service instances increase the contribution from location tracking and email-sharing clauses."
+    },
+    {
+      "id": "portfolio_004",
+      "services": ["Spotify", "Spotify", "Spotify", "Google"],
+      "rank": 4,
+      "rationale": "The portfolio is dominated by repeated streaming-service exposure, including location sharing and IP logging."
+    },
+    {
+      "id": "portfolio_005",
+      "services": ["Spotify", "Spotify", "Google", "Google"],
+      "rank": 5,
+      "rationale": "Repeated instances of both services combine tracking, location, network-address, and email-sharing risks."
+    },
+    {
+      "id": "portfolio_006",
+      "services": ["Spotify", "Spotify", "Spotify", "Spotify"],
+      "rank": 6,
+      "rationale": "This portfolio has the greatest repeated exposure to the extracted Spotify clauses, so it is assigned the highest risk."
+    }
+  ]
+}
